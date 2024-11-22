@@ -1,0 +1,23 @@
+{
+  "name": "extinct-event",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "astro": "^4.16.13",
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "typescript-eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-project-structure": "^3.7.2"
+  }
+}
