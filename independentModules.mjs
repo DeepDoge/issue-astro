@@ -12,8 +12,7 @@ export const independentModules = createIndependentModules({
     pathAliases: {
         baseUrl: "./",
         paths: {
-            "~/*": ["src/*"],
-            "node:*": ["*"],
+            "~/*": ["src/*"]
         },
     },
     modules: [
